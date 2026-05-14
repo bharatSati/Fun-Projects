@@ -1,31 +1,48 @@
+# =========================
 # Compiled binaries
-*.output
+# =========================
 *.exe
+*.out
 *.o
 *.obj
 *.a
 *.so
 
+# Your executable
+/output
+
+# =========================
 # Build folders
+# =========================
 build/
 bin/
 
-# SFML / CMake
+# =========================
+# CMake / SFML
+# =========================
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 compile_commands.json
 
+# =========================
 # VS Code
+# =========================
 .vscode/
 
-# JetBrains
+# =========================
+# JetBrains IDEs
+# =========================
 .idea/
 
+# =========================
 # Linux temporary files
+# =========================
 *~
 *.swp
 
+# =========================
 # Logs
+# =========================
 *.log
